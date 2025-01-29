@@ -1,0 +1,21 @@
+/* src/index.css */
+
+/* Existing Tailwind directives */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Neumorphism Styles */
+.shadow-neumorphism {
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+      -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+    background-color: #ebeef1;
+    border-radius: 12px;
+}
+
+.neumorphism-btn {
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    -10px -10px 10px -1px rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+}
